@@ -1,0 +1,89 @@
+body{
+    background-image: url('../img/bg.jpg');
+}
+
+body .bg-with-opacity {    
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+@media (max-width: 992px) {
+    body header{         
+        background-color: #22282f;
+    }
+    
+    body .bg-opacity{        
+        background-color: rgba(0,0,0,0.6);
+    }
+}
+
+body .bg {
+    background-color: #22282f;
+}
+
+body .bg-abs{
+    background-color: #22282f;    
+}
+
+body .bg-opacity h2{
+    color:#8bafc3;
+}
+
+body .infos h3{
+    color:#8bafc3;
+}
+
+body a{
+    color:white;
+}
+
+body a:hover{
+    color:#8bafc3;
+}
+
+body footer a{
+    color:#8bafc3;
+}
+
+body .separator hr{
+    background-color:white;
+    border-color:white;
+    color:white;
+}
+
+body footer a:hover{
+    color:white;
+}
+
+
+body .contact-link{    
+    background-color: rgba(139, 175, 195, 0.2);
+    color:white;
+}
+
+body .contact-link:hover{
+    background-color: rgba(139, 175, 195, 1);
+    color:white;
+}
+
+body .content-text .phone-link{
+    background-color:rgba(255,255,255,1);
+    color:#8bafc3;       
+}
+
+body .content-text .phone-link:hover{
+    color:white;
+    background-color:#8bafc3;
+}
+
+body .social-links a{
+    color:white;    
+}
+
+body .social-links a:hover{
+    color:#22282f;
+}
+
+body .content-text p{
+    color:white;
+}
